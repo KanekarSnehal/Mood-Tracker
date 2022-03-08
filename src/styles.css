@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #a52273;
+}
+textarea {
+  margin: 1rem;
+  padding: 0.5rem;
+  min-width: 450px;
+  max-height: 400px;
+  font-size: 1.5rem;
+}
+
+.counterInput button {
+  margin: 1rem;
+  margin-left: 0;
+  background: #2273a5;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 253, 253);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+}
+
+.counterInput button:hover {
+  background-color: #082638;
+}
+
+.counterInput.tooLong {
+  color: red;
+}
+
+.counterInput.tooLong textarea {
+  background: #eebbbb;
+}
